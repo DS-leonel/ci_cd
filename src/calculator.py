@@ -1,8 +1,4 @@
-"""Módulo de funciones matemáticas básicas para el proyecto CI/CD.
-
-Este módulo sirve como ejemplo para el pipeline de CI/CD, permitiendo validar
-tanto las pruebas unitarias como las reglas de linting y formateo.
-"""
+import os
 
 
 def sum_numbers(a: float, b: float) -> float:
