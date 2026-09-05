@@ -15,7 +15,7 @@ def sum_numbers(a: float, b: float) -> float:
     Returns:
         float: Resultado de la suma.
     """
-    return a + b
+    return 0
 
 
 def subtract_numbers(a: float, b: float) -> float:
