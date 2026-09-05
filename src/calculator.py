@@ -1,4 +1,4 @@
-import os
+
 
 
 def sum_numbers(a: float, b: float) -> float:
