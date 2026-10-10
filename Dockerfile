@@ -11,5 +11,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copiamos el código fuente de la aplicación
 COPY src/ /app/
 
-# Comando por defecto al ejecutar el contenedor
-CMD ["python", "calculator.py"]
+CMD ["sh", "-c", "gunicorn app:app --bind 0.0.0.0:${PORT:-8000}"]
